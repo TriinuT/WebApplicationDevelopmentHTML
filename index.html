@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="res/images/favicon.ico">
+    <title>My Dashboard</title>
+</head>
+<body>
+</body>
+</html>
+
+<header>
+    <strong>Welcome to your dashboard!</strong>
+</header>
+
+<section>
+    <div>
+        <img src="res/images/me.png" width="128" height="128" alt="My picture">
+        <FIGCAPTION>Caption to my image</FIGCAPTION>
+    </div>
+    <div>
+        <ul>
+            <li>Your name</li>
+            <li> A date following this format dd/mm/yyyy</li>
+            <li> Software Engineering </li>
+        </ul>
+    </div>
+    <div>
+        <strong>2.65</strong>
+    </div>
+</section>
+
+<section>
+    <h1>Courses</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Course Title</th>
+                <th>Semester</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Agile software development</td>
+                <td>fall</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td> Systems modelling </td>
+                <td>fall</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> Requirements Engineering </td>
+                <td>fall</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td> Human Computer Interaction </td>
+                <td>fall</td>
+                <td>65</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <ul>
+        <li>
+            <a href="https://ois2.ut.ee/" title="ois2.ut.ee">OIS</a>
+        </li>
+        <li>
+            <a href="https://courses.cs.ut.ee/2022/WAD/fall" title="Web Application Development ">Courses</a>
+        </li>
+            <a href="mailto: abc@example.com">Send Email</a>
+    </ul>
+</footer>
+
+
+<form action="/page.php" method="get">
+    <label for="cname">Course Title: </label><br>
+    <input type="text" name="cname"><br>
+
+    <label for=“sname">Semester: </label><br>
+    <select id="sname" name="sname">
+        <option value="fall">Fall</option>
+        <option value="spring">Spring</option></select><br>
+
+    <label for=“aname">Attendance: </label><br>
+    <input type="checkbox" id="aname1" name="aname1" value="Virtual">
+    <label for="aname1"> Virtual attendance</label><br>
+    <input type="checkbox" id="aname2" name="aname2" value="Physical">
+    <label for="aname2"> Physical attendance</label><br>
+
+</form>
+
